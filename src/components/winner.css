@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    90deg,
+    rgb(113, 79, 152) 0%,
+    rgb(29, 8, 55) 41.94%
+  );
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  letter-spacing: 1.2px;
+}
+
+h3 {
+  margin-top: 0;
+  letter-spacing: 1.25px;
+}
+
+p {
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.winner-card {
+  background: linear-gradient(90deg, white, rgb(196, 181, 181));
+  color: white;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 6px auto;
+  width: 75%;
+  border-left: 10px solid rgba(0, 0, 0);
+}
+
+.laureate-card {
+  width: 30%;
+  border-radius: 12px;
+  padding: 15px;
+  background-color: rgba(83, 59, 19, 0.8);
+  color: white;
+  margin: 6px 8px;
+  min-width: 200px;
+}
+
+.card-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgba(8, 8, 8, 0.8);
+  letter-spacing: 1.4px;
+}
+
+.laureate {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 80vw;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.laureate-name {
+  letter-spacing: 1.2px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.laureate-id {
+  font-size: 13px;
+}
+
+.laureate-motivation {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 4px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1.1px;
+  color: rgb(149, 142, 156);
+  background-color: rgb(255, 255, 255);
+}
+
+.double-nobel-winner {
+  height: max-content;
+  width: 50%;
+  background-color: rgba(83, 59, 19, 0.8);
+  color: white;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 6px auto;
+  border-left: 20px solid rgba(0, 0, 0, 0.6);
+}
+
+.fade-in {
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
